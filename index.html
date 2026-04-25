@@ -205,7 +205,7 @@ footer p{font-size:13px;color:var(--text3)}
     <div class="reveal">
       <div class="about-text">
         <p>I'm an Information Science major at the University of Colorado Boulder, minoring in Creative Technology & Design. My work sits at the intersection of data, design, and storytelling — I don't just analyze numbers, I make them make sense to people.</p>
-        <p>Before I was writing SQL queries, I was earning my Eagle Scout rank, teaching water safety as a certified instructor, and building community as part of CU Boulder Residence Life. Those experiences taught me leadership, attention to detail, and how to communicate with anyone.</p>
+        <p>Before I was writing SQL queries, I was earning my Eagle Scout rank and building community as part of CU Boulder Residence Life. Those experiences taught me leadership, attention to detail, and how to communicate with anyone.</p>
         <p>Now I'm channeling all of that into data analytics — building dashboards, cleaning messy datasets, and finding the story hiding in the numbers.</p>
       </div>
       <div class="skills-row">
@@ -234,8 +234,8 @@ footer p{font-size:13px;color:var(--text3)}
           <div class="stat-label">Scout Rank<br>Leadership & Service</div>
         </div>
         <div class="stat-card">
-          <div class="stat-number">WSI</div>
-          <div class="stat-label">Water Safety Instructor<br>Certified</div>
+          <div class="stat-number">CTD</div>
+          <div class="stat-label">Creative Technology<br>& Design Minor</div>
         </div>
       </div>
       <div class="timeline">
@@ -276,18 +276,18 @@ footer p{font-size:13px;color:var(--text3)}
             <div class="resume-placeholder-line"></div>
             <div class="resume-placeholder-line"></div>
           </div>
-          <p style="font-size:12px;color:var(--text3);margin-top:8px">Resume preview<br><span style="font-size:11px">Replace this with a PNG/PDF embed of your resume</span></p>
+          <!-- For a PNG screenshot of your resume -->
+            <img src="resume.png" alt="Cody's Resume" style="width:100%;border-radius:8px;">
+
         </div>
       </div>
       <div class="resume-info">
         <h3>Ready to download.</h3>
-        <p>My resume highlights my education at CU Boulder, technical skills in SQL, Python, and data visualization tools, and my leadership experience as an Eagle Scout and Water Safety Instructor.</p>
+        <p>My resume highlights my education at CU Boulder, technical skills in SQL, Python, and data visualization tools, and my leadership experience as an Eagle Scout.</p>
         <div class="resume-actions">
-          <a href="#" class="btn btn-primary" onclick="alert('Add your resume PDF link here!');return false;">Download PDF ↓</a>
-          <a href="#" class="btn btn-outline" onclick="alert('Add your resume image/embed here!');return false;">View Full Size</a>
+          <a href="resume.pdf" class="btn btn-primary" download>Download PDF ↓</a>
+          <a href="resume.png" class="btn btn-outline">View Full Size</a>
         </div>
-        <p class="resume-note">To add your resume: replace the placeholder with an &lt;img&gt; or &lt;iframe&gt; of your resume, and update the download link to point to your PDF file.</p>
-      </div>
     </div>
   </div>
 </section>
@@ -380,16 +380,14 @@ footer p{font-size:13px;color:var(--text3)}
       </div>
       <div class="modal-section">
         <h4>Project Preview</h4>
-        <div class="modal-visual">
-          <p>📊 Add screenshots of your Excel workbook here</p>
-          <p style="font-size:12px;color:var(--text3)">Replace this placeholder with images of your Dashboard and Pivot Analysis sheets</p>
+        <div style="display:flex;flex-direction:column;gap:16px;">
+        <img src="excel-dashboard.png" alt="Excel Dashboard" style="width:100%;border-radius:8px;border:1px solid var(--border);">
+        <img src="excel-pivot.png" alt="Pivot Analysis" style="width:100%;border-radius:8px;border:1px solid var(--border);">
+      </div>
+        <div style="margin-top:24px;">
+          <a href="CORESSEL_CODY_PROJECT_2.xlsx" class="btn btn-primary" download>Download Excel Workbook ↓</a>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
-<!-- Power BI Modal -->
 <div class="modal-overlay" id="modal-powerbi">
   <div class="modal">
     <button class="modal-close" onclick="closeModal('modal-powerbi')">✕</button>
@@ -424,9 +422,13 @@ footer p{font-size:13px;color:var(--text3)}
       </div>
       <div class="modal-section">
         <h4>Project Preview</h4>
-        <div class="modal-visual">
-          <p>🛡️ Add screenshots of your Power BI pages here</p>
-          <p style="font-size:12px;color:var(--text3)">Replace this placeholder with images of your three dashboard pages</p>
+        <div style="display:flex;flex-direction:column;gap:16px;">
+        <img src="powerbi-page1.png" alt="Threat Landscape Dashboard" style="width:100%;border-radius:8px;border:1px solid var(--border);">
+        <img src="powerbi-page2.png" alt="Industry Risk Analysis" style="width:100%;border-radius:8px;border:1px solid var(--border);">
+        <img src="powerbi-page3.png" alt="Data Sensitivity Report" style="width:100%;border-radius:8px;border:1px solid var(--border);">
+      </div>
+        <div style="margin-top:24px;">
+          <a href="CORESSEL_CODY_PROJECT_2_3402.pdf" class="btn btn-primary" download>Download Project PDF ↓</a>
         </div>
       </div>
     </div>
@@ -445,24 +447,24 @@ footer p{font-size:13px;color:var(--text3)}
         <p>I'm currently looking for data analytics internships and full-time roles. Whether you have an opportunity, a question, or just want to say hello — I'd love to hear from you.</p>
       </div>
       <div class="contact-links">
-        <a href="mailto:your.email@colorado.edu" class="contact-link">
+        <a href="mailto:cody.coressel@colorado.edu" class="contact-link">
           <div class="contact-link-icon">✉</div>
           <div>
-            <div class="contact-link-text">your.email@colorado.edu</div>
+            <div class="contact-link-text">cody.coressel@colorado.edu</div>
             <div class="contact-link-label">Email</div>
           </div>
         </a>
-        <a href="https://linkedin.com/in/yourprofile" class="contact-link" target="_blank">
+        <a href="https://www.linkedin.com/in/codycoressel" class="contact-link" target="_blank">
           <div class="contact-link-icon">in</div>
           <div>
-            <div class="contact-link-text">linkedin.com/in/yourprofile</div>
+            <div class="contact-link-text">www.linkedin.com/in/codycoressel</div>
             <div class="contact-link-label">LinkedIn</div>
           </div>
         </a>
-        <a href="https://github.com/yourprofile" class="contact-link" target="_blank">
+        <a href="https://github.com/coco4332" class="contact-link" target="_blank">
           <div class="contact-link-icon">&lt;/&gt;</div>
           <div>
-            <div class="contact-link-text">github.com/yourprofile</div>
+            <div class="contact-link-text">https://github.com/coco4332</div>
             <div class="contact-link-label">GitHub</div>
           </div>
         </a>
